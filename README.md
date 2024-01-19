@@ -18,7 +18,7 @@ Zhongyuan Zhao<sup>1,2</sup> Zhenyu Bao<sup>1,2</sup>, Guoping Qiu<sup>3,4</sup>
 	To achieve this, Splat-MSM inherits the capability of being morphed from the parametric morphable model, and represents the geometry with point splats instead of meshes, enhancing the representation flexibility especially for complex volumetric structures. 
 	Splat-MSM not only allows for modeling surface-like geometries, but also encourages reconstructing complex structures, e.g., diverse hair styles, complex accessories, etc..
 	In addition, SplatAvatar employs Gaussian splats in combination with Splat-MSM for further improving the representation capability and modeling the appearance. 
-	SplatAvatar gains improved representation flexibility over 3DMMs, and achieves real-time (>= 30fps at the resolution of 512 $\times$ 512) rendering superior to implicit models.
+	SplatAvatar gains improved representation flexibility over 3DMMs, and achieves real-time (>= 25 fps at the resolution of 512 $\times$ 512) rendering superior to implicit models.
 	We conduct head avatar reconstruction on a variety of subjects, and implement real-time high-fidelity animation controlled by the morphable model parameters.
 	Extensive experiments demonstrate that the introduced SplatAvatar outperforms the existing works.
 
