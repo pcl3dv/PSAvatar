@@ -1,16 +1,32 @@
 <div align="center">
 
 # <b>SplatAvatar</b>: Real-Time Animatable Head Avatar with Splat
-Zhongyuan Zhao<sup>1</sup>,<sup>2</sup> Zhenyu Bao<sup>1</sup>,<sup>2</sup>, Guoping Qiu<sup>3</sup>,<sup>4</sup>, Qing Li<sup>1</sup>, Kanglin Liu<sup>1</sup>, <sup>*</sup>
+Zhongyuan Zhao<sup>1,2</sup> Zhenyu Bao<sup>1,2</sup>, Guoping Qiu<sup>3,4</sup>, Qing Li<sup>1</sup>, Kanglin Liu<sup>1,*</sup>
 
-<sup>1</sup>Pengcheng Laboratory  <sup>2</sup>Peking University  <sup>3</sup>University of Nottingham  <sup>4</sup>Shenzhen University
+<sup>1</sup>Pengcheng Laboratory    <sup>2</sup>Peking University    <sup>3</sup>University of Nottingham    <sup>4</sup>Shenzhen University
 
 <sup>*</sup>corresponding author: max.liu.426@gmail.com
 
 </div>
 
-<img src="">
+<img src="https://github.com/pcl3dv/SplatAvatar/blob/main/images/fig1.jpg">
 
-***Abstract**: The ability to animate photo-realistic head avatars reconstructed from monocular portrait video sequences represents a crucial step in bridging the gap between the virtual and real worlds. Recent advancements in head avatar techniques, including explicit 3D morphable meshes (3DMM), point clouds, and neural implicit representation have been exploited for this ongoing research. However, 3DMM-based methods are constrained by their fixed topologies, point-based approaches suffer from a heavy training burden due to the extensive quantity of points involved, and the last ones suffer from limitations in deformation flexibility and rendering efficiency. In response to these challenges, we propose MonoGaussianAvatar (Monocular Gaussian Point-based Head Avatar), a novel approach that harnesses 3D Gaussian point representation coupled with a Gaussian deformation field to learn explicit head avatars from monocular portrait videos. We define our head avatars with Gaussian points characterized by adaptable shapes, enabling flexible topology. These points exhibit movement with a Gaussian deformation field in alignment with the target pose and expression of a person, facilitating efficient deformation. Additionally, the Gaussian points have controllable shape, size, color, and opacity combined with Gaussian splatting, allowing for efficient training and rendering. Experiments demonstrate the superior performance of our method, which achieves state-of-the-art results among previous methods.*
+***Abstract**: Point and Gaussian splat show improved representation flexibility over 3D morphable models (3DMMs), and outperform implicit representation in terms of rendering efficiency.
+	However, modeling the dynamics of human heads remains a major challenge for point and Gaussian splat due to the absence of the parametric morphable model as that in 3DMMs.
+	To this end, we present SplatAvatar, a novel framework for creating head avatars that can be animated in real-time with given poses and expressions.
+	Specifically, SplatAvatar  introduces the splat-based morphable shape model (Splat-MSM) for modeling the shape variation with poses and expressions. 
+	To achieve this, Splat-MSM inherits the capability of being morphed from the parametric morphable model, and represents the geometry with point splats instead of meshes, enhancing the representation flexibility especially for complex volumetric structures. 
+	Splat-MSM not only allows for modeling surface-like geometries, but also encourages reconstructing complex structures, e.g., diverse hair styles, complex accessories, etc..
+	In addition, SplatAvatar employs Gaussian splats in combination with Splat-MSM for further improving the representation capability and modeling the appearance. 
+	SplatAvatar gains improved representation flexibility over 3DMMs, and achieves real-time (>= 30fps at the resolution of 512 $\times$ 512) rendering superior to implicit models.
+	We conduct head avatar reconstruction on a variety of subjects, and implement real-time high-fidelity animation controlled by the morphable model parameters.
+	Extensive experiments demonstrate that the introduced SplatAvatar outperforms the existing works.
 
 Code is coming soon.
+
+## Animation Results
+### driven by the pose, expression and camera parameters
+
+
+### multi-identity animation
+
