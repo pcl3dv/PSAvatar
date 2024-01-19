@@ -27,6 +27,13 @@ Code is coming soon.
 ## Animation Results
 ### driven by the pose, expression and camera parameters
 
+https://github.com/pcl3dv/SplatAvatar/assets/157086671/cbec38d9-1556-47b0-a87e-5750a75872e6
 
 ### multi-identity animation
+
+
+
+https://github.com/pcl3dv/SplatAvatar/assets/157086671/2c947fcf-78db-4e5d-b50b-70a93e50fbdd
+
+
 
