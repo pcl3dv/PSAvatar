@@ -25,11 +25,14 @@ Zhongyuan Zhao<sup>1,2</sup> Zhenyu Bao<sup>1,2</sup>, Guoping Qiu<sup>3,4</sup>
 Code is coming soon.
 
 ## Animation Results
+Tested on Nvidia RTX 3090
 ### driven by the pose, expression and camera parameters
 
 https://github.com/pcl3dv/SplatAvatar/assets/157086671/cbec38d9-1556-47b0-a87e-5750a75872e6
 
 ### multi-identity animation
+ Four avatars are rendered at the same time, such an operation would decrease the frame rate.
+
 
 
 
