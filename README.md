@@ -1,7 +1,7 @@
 <div align="center">
 
-# <b>SplatAvatar</b>: Real-Time Animatable Head Avatar with Splat
-Zhongyuan Zhao<sup>1,2</sup> Zhenyu Bao<sup>1,2</sup>, Guoping Qiu<sup>3,4</sup>, Qing Li<sup>1</sup>, Kanglin Liu<sup>1,*</sup>
+#  PSAvatar: A Point-based Morphable Shape Model for Real-Time Head Avatar Creation with 3D Gaussian Splatting
+Zhongyuan Zhao<sup>1,2</sup> Zhenyu Bao<sup>1,2</sup>, Qing Li<sup>1</sup>, Guoping Qiu<sup>3,4</sup>, Kanglin Liu<sup>1,*</sup>
 
 <sup>1</sup>Pengcheng Laboratory    <sup>2</sup>Peking University    <sup>3</sup>University of Nottingham    <sup>4</sup>Shenzhen University
 
@@ -25,18 +25,24 @@ Zhongyuan Zhao<sup>1,2</sup> Zhenyu Bao<sup>1,2</sup>, Guoping Qiu<sup>3,4</sup>
 Code is coming soon.
 
 ## Animation Results
-Tested on Nvidia RTX 3090
+Tested on Nvidia RTX 3090. Uncompressed videos can be found at
+
+https://github.com/pcl3dv/SplatAvatar/blob/main/images/subj1.mp4
+
+https://github.com/pcl3dv/SplatAvatar/blob/main/images/multi-id.mp4
+
 ### driven by the pose, expression and camera parameters
 
-https://github.com/pcl3dv/SplatAvatar/assets/157086671/cbec38d9-1556-47b0-a87e-5750a75872e6
+https://github.com/pcl3dv/SplatAvatar/assets/157086671/67680481-b998-4be8-b585-8d85a9b7fdd8
+
+
 
 ### multi-identity animation
- Four avatars are rendered at the same time, such an operation would decrease the frame rate.
+Four avatars are rendered at the same time, such an operation would decrease the frame rate.
+
+https://github.com/pcl3dv/SplatAvatar/assets/157086671/10ced56c-aaa5-42c0-95bc-75fb0f2b158a
 
 
-
-
-https://github.com/pcl3dv/SplatAvatar/assets/157086671/2c947fcf-78db-4e5d-b50b-70a93e50fbdd
 
 
 
