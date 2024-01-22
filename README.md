@@ -1,7 +1,7 @@
 <div align="center">
 
-# <b>SplatAvatar</b>: Real-Time Animatable Head Avatar with Splat
-Zhongyuan Zhao<sup>1,2</sup> Zhenyu Bao<sup>1,2</sup>, Guoping Qiu<sup>3,4</sup>, Qing Li<sup>1</sup>, Kanglin Liu<sup>1,*</sup>
+#  PSAvatar: A Point-based Morphable Shape Model for Real-Time Head Avatar Creation with 3D Gaussian Splatting
+Zhongyuan Zhao<sup>1,2</sup> Zhenyu Bao<sup>1,2</sup>, Qing Li<sup>1</sup>, Guoping Qiu<sup>3,4</sup>, Kanglin Liu<sup>1,*</sup>
 
 <sup>1</sup>Pengcheng Laboratory    <sup>2</sup>Peking University    <sup>3</sup>University of Nottingham    <sup>4</sup>Shenzhen University
 
