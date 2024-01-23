@@ -27,20 +27,20 @@ Code is coming soon.
 ## Animation Results
 Tested on Nvidia RTX 3090. Uncompressed videos can be found at
 
-https://github.com/pcl3dv/SplatAvatar/blob/main/images/subj1.mp4
+https://github.com/pcl3dv/PSAvatar/blob/main/videos/subj1.mp4
 
-https://github.com/pcl3dv/SplatAvatar/blob/main/images/multi-id.mp4
+https://github.com/pcl3dv/PSAvatar/blob/main/videos/multi-subjects.mp4
 
 ### driven by the pose, expression and camera parameters
 
-https://github.com/pcl3dv/SplatAvatar/assets/157086671/67680481-b998-4be8-b585-8d85a9b7fdd8
-
-
+https://github.com/pcl3dv/PSAvatar/assets/157086671/615f8f7c-a7de-40a6-80fe-9300f347e54a
 
 ### multi-identity animation
 Four avatars are rendered at the same time, such an operation would decrease the frame rate.
 
-https://github.com/pcl3dv/SplatAvatar/assets/157086671/10ced56c-aaa5-42c0-95bc-75fb0f2b158a
+https://github.com/pcl3dv/PSAvatar/assets/157086671/d49e3090-6e55-4d11-8e85-fa3737613b7d
+
+
 
 
 
