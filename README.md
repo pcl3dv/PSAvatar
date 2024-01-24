@@ -7,6 +7,8 @@ Zhongyuan Zhao<sup>1,2</sup> Zhenyu Bao<sup>1,2</sup>, Qing Li<sup>1</sup>, Guop
 
 <sup>*</sup>corresponding author: max.liu.426@gmail.com
 
+### [Paper](https://arxiv.org/abs/2401.12900)
+
 </div>
 
 <img src="https://github.com/pcl3dv/SplatAvatar/blob/main/images/fig1.jpg">
