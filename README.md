@@ -11,16 +11,9 @@ Zhongyuan Zhao<sup>1,2</sup> Zhenyu Bao<sup>1,2</sup>, Qing Li<sup>1</sup>, Guop
 
 <img src="https://github.com/pcl3dv/SplatAvatar/blob/main/images/fig1.jpg">
 
-***Abstract**: Point and Gaussian splat show improved representation flexibility over 3D morphable models (3DMMs), and outperform implicit representation in terms of rendering efficiency.
-	However, modeling the dynamics of human heads remains a major challenge for point and Gaussian splat due to the absence of the parametric morphable model as that in 3DMMs.
-	To this end, we present SplatAvatar, a novel framework for creating head avatars that can be animated in real-time with given poses and expressions.
-	Specifically, SplatAvatar  introduces the splat-based morphable shape model (Splat-MSM) for modeling the shape variation with poses and expressions. 
-	To achieve this, Splat-MSM inherits the capability of being morphed from the parametric morphable model, and represents the geometry with point splats instead of meshes, enhancing the representation flexibility especially for complex volumetric structures. 
-	Splat-MSM not only allows for modeling surface-like geometries, but also encourages reconstructing complex structures, e.g., diverse hair styles, complex accessories, etc..
-	In addition, SplatAvatar employs Gaussian splats in combination with Splat-MSM for further improving the representation capability and modeling the appearance. 
-	SplatAvatar gains improved representation flexibility over 3DMMs, and achieves real-time (>= 25 fps at the resolution of 512 $\times$ 512) rendering superior to implicit models.
-	We conduct head avatar reconstruction on a variety of subjects, and implement real-time high-fidelity animation controlled by the morphable model parameters.
-	Extensive experiments demonstrate that the introduced SplatAvatar outperforms the existing works.
+***Abstract**: Despite much progress, achieving real-time high-fidelity head avatar animation is still difficult and existing methods have to trade-off between speed and quality. 3DMM based methods often fail to model non-facial structures such as eyeglasses and hairstyles, while neural implicit models suffer from deformation inflexibility and rendering inefficiency.
+Although 3D Gaussian has been demonstrated to possess promising capability for geometry representation and radiance field reconstruction, applying 3D Gaussian in head avatar creation remains a major challenge since it is difficult for 3D Gaussian to model the head shape variations caused by changing poses and expressions. In this paper, we introduce PSAvatar, a novel framework for animatable head avatar creation that utilizes discrete geometric primitive to create a parametric morphable shape model and employs 3D Gaussian for fine detail representation and high fidelity rendering. The parametric morphable shape model is a Point-based Morphable Shape Model (PMSM) which uses points instead of meshes for 3D representation to achieve enhanced representation flexibility. The PMSM first converts the FLAME mesh to points by sampling on the surfaces as well as off the meshes to enable the reconstruction of not only surface-like structures but also complex geometries such as eyeglasses and hairstyles. By aligning these points with the head shape in an analysis-by-synthesis manner, the PMSM makes it possible to utilize 3D Gaussian for fine detail representation and appearance modeling, thus enabling the creation of high-fidelity avatars. We show that PSAvatar can reconstruct high-fidelity head avatars of a variety of subjects and the avatars can be animated in real-time ($\ge$ 25 fps
+at a resolution of 512 $\times$ 512 ).
 
 Code is coming soon.
 
@@ -33,7 +26,9 @@ https://github.com/pcl3dv/PSAvatar/blob/main/videos/multi-subjects.mp4
 
 ### driven by the pose, expression and camera parameters
 
-https://github.com/pcl3dv/PSAvatar/assets/157086671/615f8f7c-a7de-40a6-80fe-9300f347e54a
+
+https://github.com/pcl3dv/PSAvatar/assets/157086671/0e3246c4-b7fb-45af-baa6-93e5ac0aea78
+
 
 ### multi-identity animation
 Four avatars are rendered at the same time, such an operation would decrease the frame rate.
