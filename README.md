@@ -20,7 +20,7 @@ at a resolution of 512 $\times$ 512 ).
 Code is coming soon.
 
 ## Animation Results
-Tested on Nvidia RTX 3090. Uncompressed videos can be found at
+Tested on Nvidia RTX 3090.  Videos can be found at
 
 https://github.com/pcl3dv/PSAvatar/blob/main/videos/subj1.mp4
 
@@ -36,6 +36,11 @@ https://github.com/pcl3dv/PSAvatar/assets/157086671/0e3246c4-b7fb-45af-baa6-93e5
 Four avatars are rendered at the same time, such an operation would decrease the frame rate.
 
 https://github.com/pcl3dv/PSAvatar/assets/157086671/d49e3090-6e55-4d11-8e85-fa3737613b7d
+
+### the effect of the enhancement operation
+
+https://github.com/pcl3dv/PSAvatar/assets/157086671/e755c668-f8b0-4d4b-83a1-c5c16030dd55
+
 
 
 
