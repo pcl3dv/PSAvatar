@@ -26,8 +26,7 @@ https://github.com/pcl3dv/PSAvatar/blob/main/videos/multi-subjects.mp4
 
 ### driven by the pose, expression and camera parameters
 
-
-https://github.com/pcl3dv/PSAvatar/assets/157086671/0e3246c4-b7fb-45af-baa6-93e5ac0aea78
+https://github.com/pcl3dv/PSAvatar/assets/157086671/15916ce6-1768-4c6f-bc89-c4f8dc2421c7
 
 
 ### multi-identity animation
